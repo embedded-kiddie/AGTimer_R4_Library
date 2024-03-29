@@ -26,6 +26,7 @@ public:
   void init(int period, timer_source_div_t sd, void (*callback)());
   bool start(void);
   bool stop(void);
+  void end(void);
 };
 
 extern AGTimerR4 AGTimer;

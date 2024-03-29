@@ -67,3 +67,7 @@ bool AGTimerR4::start(void) {
 bool AGTimerR4::stop(void) {
   return fsp_timer.stop();
 }
+
+void AGTimerR4::end(void) {
+  fsp_timer.end();
+}
